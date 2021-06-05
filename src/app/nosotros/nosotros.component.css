@@ -1,0 +1,50 @@
+#cuerpo{
+    width: 85%;
+    margin: auto;
+}
+#subT{
+	margin: 30px;
+    font-size: 30px;
+    line-height: 1.3;
+    color: #f25510;
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+    margin-bottom: 0px;
+}
+#texto{
+    margin-top: 0px;
+    color: #222e6a;
+    line-height: 1.4;
+    font-size: 17px;
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+    margin-bottom: 0px;
+}
+#cuerpoT{
+    width: 100%;
+}
+#tabla{
+    width: 100%;
+}
+#tdI{
+    text-align: right;
+    padding: 40px;
+    padding-left: 70px;
+}
+#tdD{
+    text-align: left;
+    padding: 40px;
+    padding-right: 70px;
+}
+#tabla tr td{    
+    width: 50%;
+    height: 300px;
+}
+#img{
+    width: 500px;
+    height: 300px;
+}
+#titulo{
+    margin-top: 3px;
+    margin-bottom: 10px;
+    color:coral;
+    font-size: 30px;
+}

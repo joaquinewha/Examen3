@@ -1,0 +1,86 @@
+#tabla{
+    width: 100%;
+}
+#tabla tr td{    
+    width: 50%;
+    height: 300px;
+}
+#tdD{
+    
+    padding: 40px;
+}
+
+#marco{
+    padding: 30px;
+    background-color: white;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+#controls{
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: black;
+}
+#controls2{
+    width: 40%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    color: black;
+}
+#controls3{
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+#texto{
+    margin-top: 0px;
+    color: white;
+    line-height: 1.5;
+    font-size: 15px;
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+    margin-top: 10px;
+}
+#subT{
+    font-size: 30px;
+    line-height: 1.3;
+    color: #f25510;
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#boton{
+    width: 100%;
+    background: #222e6a;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin-top: 0px;
+}
+
+#cuerpo{
+    width: 100%;
+    height: 490px;
+    background-image: url(https://images7.alphacoders.com/456/456548.jpg);
+    background-size: 100% 100%;
+    padding-left: 50px;
+    padding-bottom: 45px;
+    padding-top: 50px;
+}
+#cabeza
+{
+    width: 87%;
+    margin: auto;
+}

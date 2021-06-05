@@ -1,0 +1,76 @@
+#cuerpo{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+#controls{
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: black;
+}
+#controls2{
+    width: 40%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    color: black;
+}
+#controls3{
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: black;
+}
+#tabla{
+    width: 100%;
+    margin-top: 20px;
+}
+#tabla tr td{    
+    width: 50%;
+    height: 300px;
+
+}
+#boton{
+    width: 25%;
+    background: #222e6a;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin-top: 0px;
+}
+#boton1{
+    width: 50%;
+    background: #222e6a;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 2%;
+}
+#tablaI{
+    background-color: azure;
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+#tablaI tr td{
+    border: solid 1px black;
+    width: 5%;
+    height: 10%;
+    padding: 10px;
+}
+thead{
+    background-color: darkcyan;
+}
+
+#contenedor{
+    padding-left: 70px;
+    padding-right: 70px;
+}

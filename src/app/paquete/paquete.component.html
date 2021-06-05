@@ -1,0 +1,21 @@
+<div id="cuerpo">
+    <app-barra></app-barra>
+    <table id="tabla">
+        <tr>
+            <td id="tdC">
+                <img [src]="paquete?.imagen" alt="" id="img">
+            </td>
+            <td id="tdL">
+                <h2 id="titulo">{{paquete.nombre}}</h2>
+                <h3 id="subT">El establecimiento es el {{paquete.hotel}}</h3>
+                <p id="texto">El establecimiento se ubica en {{paquete.destino}}</p>
+                <hr>
+                <h3 id="subT">El paquete incluye:</h3>
+                <p id="texto">{{paquete.comidas}}</p>
+                <h3 id="subT">Actividades:</h3>
+                <p id="texto">{{paquete.actividades}}</p>
+                <h2 id="titulo">{{paquete.costo}} <button id="boton" (click)="Reservar(paquete)">Reservar</button></h2>
+            </td>
+        </tr>
+    </table>
+</div>

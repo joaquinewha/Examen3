@@ -1,0 +1,57 @@
+#cuerpo{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+#img{
+    width: 350px;
+    height: 200px;
+}
+#titulo{
+    font-size: 30px;
+    line-height: 1.3;
+    color: #f25510;
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+}
+#boton{
+    width: 25%;
+    background: #222e6a;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin-top: 0px;
+    font-size: 15px;
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+}
+#controls{
+    width: 94%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: black;
+}
+#controls2{
+    width: 44%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    color: black;
+}
+#controls3{
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: black;
+}
+#contenedor{
+    padding-left: 30px;
+    padding-right: 150px;
+    padding-top: 20px;
+
+}

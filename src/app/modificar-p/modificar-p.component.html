@@ -1,0 +1,45 @@
+<div id="cuerpo">
+    <app-barra></app-barra>
+    <table id="tabla">
+        <tr>
+            <td>
+                <div id="contenedor">
+                    <form action="" (ngSubmit)="Guardar()" [formGroup]="paqueteForm">
+                        <input type="text" name="nombre" id="controls" placeholder="Nombre" formControlName="nombre">
+                        <input type="text" name="nombre" id="controls" placeholder="Costo" formControlName="costo">
+                        <input type="email" name="nombre" id="controls" placeholder="Comidas" formControlName="comidas">
+                        <input type="text" name="nombre" id="controls2" placeholder="Hotel" formControlName="hotel">
+                        <input type="text" name="nombre" id="controls2" placeholder="Destino" formControlName="destino">
+                        <input type="text" name="nombre" id="controls2" placeholder="Id" formControlName="id">
+                        <input type="text" name="nombre" id="controls" placeholder="Link de Imagen de Portada" formControlName="imagen">
+                        <textarea type="mensaje" name="nombre" id="controls3" placeholder="Actividades" formControlName="actividades"></textarea>
+                        <button type="submit" name="BtEnviar" id="boton">Guardar Paquete</button>
+                    </form>
+                </div>
+            </td>
+            <td>
+                <table id="tablaI">
+                    <thead>
+                        <tr>
+                            <td>Nombre</td>
+                            <td>Costo</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of paquete$ | async">
+                            <td>{{item.nombre}}</td>
+                            <td>{{item.costo}}</td>
+                            <td>
+                                <button id="boton1" (click)="Editar(item)">Editar</button> 
+                                
+                            </td>
+                            <td>
+                                <button id="boton1" (click)="Borrar(item)">borrar</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>

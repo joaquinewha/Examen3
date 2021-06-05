@@ -1,0 +1,29 @@
+<div id="cuerpo">
+    <app-barra></app-barra>
+    <table>
+        <tr>
+            <td>
+                <img [src]="paquete?.imagen" alt="" id="img">
+                <h2 id="titulo">{{paquete.nombre}}</h2>
+                <h2 id="titulo">{{paquete.costo}}</h2>
+            </td>
+            <td>
+                <div id="contenedor">
+                    <form action="" (ngSubmit)="Guardar()" [formGroup]="reservacionForm">
+                        <input type="text" name="nombre" id="controls2" placeholder="Nombre" formControlName="nombre">
+                        <input type="text" name="nombre" id="controls2" placeholder="Apellido" formControlName="apellido">
+                        <input type="text" name="nombre" id="controls2" placeholder="Telefono" formControlName="telefono">
+                        <input type="text" name="nombre" id="controls2" placeholder="CI" formControlName="ci">
+                        <input type="text" name="nombre" id="controls" placeholder="Email" formControlName="email">
+                        <input type="text" name="nombre" id="controls2" placeholder="Origen" formControlName="origen">
+                        <input type="email" name="nombre" id="controls2" placeholder="Nro. Personas" formControlName="nrop">
+                        <input type="text" name="nombre" id="controls2" placeholder="FechaI" formControlName="fechaI">
+                        <input type="text" name="nombre" id="controls2" placeholder="FechaF" formControlName="fechaF">
+                        <button type="submit" name="BtEnviar" id="boton">Guardar Paquete</button>
+                    </form>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+

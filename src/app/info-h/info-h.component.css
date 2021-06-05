@@ -1,0 +1,19 @@
+#modulo{
+    width: 100%;
+    text-align: center;
+}
+#img{
+    width: 200px;
+    height: 150px;
+}
+#titulo{
+    margin-top: 3px;
+    margin-bottom: 10px;
+    color: #222e6a;
+
+}
+#texto{
+    margin-top: 0px;
+    color: #222e6a;
+    line-height: 1.2;
+}

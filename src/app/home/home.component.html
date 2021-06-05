@@ -1,0 +1,27 @@
+<div id="cuerpo">
+  <app-barra></app-barra>
+
+  <div id="banner">
+    <h1 id="anuncio">ES HORA DE <span style="color:#f25510">VIAJAR </span>Y <span style="color:#f25510">DISFRUTAR</span></h1>
+  </div>
+
+  <div id="sector1">
+    <app-info-h [dataEntrante]="modulo" *ngFor="let modulo of modulos"></app-info-h>
+  </div>
+  
+  <h1 id="subT">PAQUETES DE VIAJES</h1>
+
+    <div *ngFor="let item of paquete$ | async" id="repite">
+      <article id="contenedor">
+        <img [src]="item?.imagen" alt="" id="img">
+        <p id="info">{{item.nombre}}</p>
+        <p id="info">{{item.costo}}</p>
+        <button id="boton" (click)="Ver(item)">Ver Paquete</button> 
+      </article>
+    </div>
+
+
+
+
+
+</div>

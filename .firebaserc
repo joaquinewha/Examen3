@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "empresaturismo-23b79": {
+      "hosting": {
+        "examen3": [
+          "empresaturismo-23b79"
+        ]
+      }
+    }
+  }
+}
